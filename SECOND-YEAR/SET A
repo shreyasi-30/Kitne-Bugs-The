@@ -1,0 +1,20 @@
+Question 1:Find Prime Numbers in a List
+
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, num - 1): 
+        if num % i = 0: 
+            return False
+    return True
+
+def find_primes_in_list(numbers):
+    prime_numbers = []
+    for n in numbers:
+        if is_prime:
+            prime_numbers.add(n) 
+    return prime_numbers
+
+my_numbers = [2, 7, 10, 13, 15, 19, 20]
+primes = find_primes_in_list(my_numbers)
+print(f"Prime numbers found: {primes}")
