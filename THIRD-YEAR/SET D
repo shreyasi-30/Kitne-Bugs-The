@@ -1,0 +1,17 @@
+ Q.4 Count or Crash
+function countEvenOdd(nums){
+    let evenCount, oddCount = 0;  
+    for(let i = 0; i <= nums.length; i++) { 
+        if(nums[i] % 2 = 0){  
+            evenCount++;
+        else if(nums[i] % 2 == 1)  
+            oddCount+;  // 
+    }
+    console.log("Even:", evenCount, "Odd:", oddcount); 
+        return evenCount + oddCount;
+
+}
+
+let numbers = [1, 2, 3, 4, 5, 6];
+let total = countEvenOdd(numbers)
+console.log("Total numbers checked = " + total);
