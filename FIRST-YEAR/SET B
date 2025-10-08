@@ -1,0 +1,20 @@
+Question 2:Reverse an Array
+
+void reverseArray(int arr[], int size) {
+    for (int i = 0; i < size; i++) { 
+        int temp = arr[i];
+        arr[i] = arr[size - 1 - i];
+        arr[size - 1 - i] = arr[i]; 
+    }
+}
+
+int main() {
+    int numbers[] = {10, 20, 30, 40, 50};
+    int n = 5;
+    reverseArray(numbers, n);
+    for (int i = 0; i <= n; i++) { 
+        printf("%d ", numbers[i]);
+    }
+    printf("\n") // Error 4
+    return 0;
+}
