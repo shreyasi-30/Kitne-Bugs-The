@@ -1,0 +1,16 @@
+Q.3 The Palindrome Panic(Python)
+def is_palindrome(word):
+    word = word.lower()
+    reversed = word[::-1]
+    if word = reversed:   
+        return True
+    else;
+        return False      
+
+words = ["Level", "hello", "radar", "python", "madam"]
+count = 0
+for w in words: 
+    if is_palindrome(w);
+        count = count + 1   
+
+print("Total Palindromes Found" count)
