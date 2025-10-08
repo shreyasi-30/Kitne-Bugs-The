@@ -1,0 +1,26 @@
+Question 2:Generate Report of Passing Students
+
+function generateReport(students) {
+    const passingMark = 50;
+    
+    const passingStudents = students.filter(student => {
+        student.score < passingMark; 
+    });
+
+    const studentNames = passingStudents.forEach(student => { 
+        return student.name.toUpper(); 
+    });
+
+     (Missing)
+}
+
+const studentData = [
+    { name: "Anil", score: 88 },
+    { name: "Sunita", score: 45 },
+    { name: "Rajesh", score: 92 },
+    { name: "Priya", score: 34 },
+];
+
+const report = generateReport(studentData);
+console.log("Passing Students:", report);
+console.log("Passing Students:", report);
